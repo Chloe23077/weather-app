@@ -7,6 +7,22 @@
     <Grid RowDefinitions="Auto, Auto, Auto, Auto, Auto"
           RowSpacing="20">
         <StackLayout Grid.Row="0"
+                     Margin="20,20,20,0"
+                     Orientation="Horizontal">
+            <Frame Padding="10" CornerRadius="35" HasShadow="True" BorderColor="LightGray">
+                <Label Text="Your location"
+                       FontSize="Default"/>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer x:Name="TapLocation" Tapped="TapLocation_Tapped"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+            <ImageButton Source="search1.png"
+                         HeightRequest="30"
+                         WidthRequest="30"
+                         HorizontalOptions="EndAndExpand"
+                         Clicked="ImageButton_Clicked"/>
+        </StackLayout>
+        <StackLayout Grid.Row="1"
              Orientation="Vertical">
 
             <Label x:Name="LblCity"
@@ -18,7 +34,7 @@
                    HorizontalOptions="Center" 
                    TextColor="SlateGray"/>
             
-            <Image Grid.Row="1"
+            <Image Grid.Row="2"
                    x:Name="ImgWeatherIcon"
                    VerticalOptions="Start"
                    HeightRequest="300"
@@ -67,11 +83,10 @@
                 <DataTemplate>
                     <Grid Grid.Row="4"
                           RowDefinitions="Auto, Auto, Auto">
-
-                       <Image Grid.Row="0"
+                        <Image Grid.Row="0"
                               HorizontalOptions="Center"
                               VerticalOptions="Start"
-                              HeightRequest="50"
+                              HeightRequest="40"
                               WidthRequest="50"
                               Source="{Binding weather[0].customIcon}"/>
                        <Label Grid.Row="1"

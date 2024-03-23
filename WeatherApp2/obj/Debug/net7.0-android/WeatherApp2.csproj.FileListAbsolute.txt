@@ -30,6 +30,7 @@ C:\Users\yunja\source\repos\WeatherApp2\WeatherApp2\obj\Debug\net7.0-android\res
 C:\Users\yunja\source\repos\WeatherApp2\WeatherApp2\obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\splash.png
 C:\Users\yunja\source\repos\WeatherApp2\WeatherApp2\obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\dotnet_bot.png
 C:\Users\yunja\source\repos\WeatherApp2\WeatherApp2\obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\splash.png
+C:\Users\yunja\source\repos\WeatherApp2\WeatherApp2\obj\Debug\net7.0-android\resizetizer\r\drawable\detail.png
 C:\Users\yunja\source\repos\WeatherApp2\WeatherApp2\obj\Debug\net7.0-android\resizetizer\r\drawable\favorite.png
 C:\Users\yunja\source\repos\WeatherApp2\WeatherApp2\obj\Debug\net7.0-android\resizetizer\r\drawable\home.png
 C:\Users\yunja\source\repos\WeatherApp2\WeatherApp2\obj\Debug\net7.0-android\resizetizer\r\drawable\humidity_icon.png

@@ -17,8 +17,37 @@ public partial class WeatherHomePage : ContentPage
     {
         base.OnAppearing();
         await GetLocation();
+        
+    }
+
+    public async Task GetLocation()
+    {
+        var location = await Geolocation.GetLocationAsync();
+        latitude = location.Latitude;
+        longitude = location.Longitude;
+        await GetWeatherDataByLocation(latitude, longitude);
+    }
+
+    private async void ImageButton_Clicked(object sender, EventArgs e)
+    {
+        var response = await DisplayPromptAsync(title: "", message: "", placeholder: "Search weather by city", accept: "Search", cancel: "Cancel");
+        if (response != null)
+        {
+
+        }
+    }
+
+    private async void TapLocation_Tapped(object sender, TappedEventArgs e)
+    {
+        await GetLocation();
+        await GetWeatherDataByLocation(latitude, longitude);
+
+    }
+
+    public async Task GetWeatherDataByLocation(double latitude, double longitude)
+    {
         var result = await ApiService.GetWeather(latitude, longitude);
-        foreach(var item in result.list)
+        foreach (var item in result.list)
         {
             WeatherList.Add(item);
         }
@@ -30,12 +59,5 @@ public partial class WeatherHomePage : ContentPage
         LblHumidity.Text = result.list[0].main.humidity + "%";
         LblWind.Text = result.list[0].wind.speed + "km/h";
         ImgWeatherIcon.Source = result.list[0].weather[0].customIcon;
-    }
-
-    public async Task GetLocation()
-    {
-        var location = await Geolocation.GetLocationAsync();
-        latitude = location.Latitude;
-        longitude = location.Longitude;
     }
 }

@@ -11,13 +11,13 @@
             <ShellContent Title="Home"
                 ContentTemplate="{DataTemplate local:WeatherHomePage}" Route="WeatherHomePage"/>
         </Tab>
+        <Tab Title="Detail" Icon="detail.png">
+            <ShellContent Title="Detail"
+        ContentTemplate="{DataTemplate local:WeatherDetailPage}" Route="WeatherDetailPage"/>
+        </Tab>
         <Tab Title="Favorite" Icon="favorite.png">
             <ShellContent Title="Favorite"
                 ContentTemplate="{DataTemplate local:WeatherFavoritePage}" Route="WeatherFavoritePage"/>
-        </Tab>
-        <Tab Title="Search" Icon="search1.png">
-            <ShellContent Title="Search"
-                ContentTemplate="{DataTemplate local:WeatherSearchPage}" Route="WeatherSearchPage"/>
         </Tab>
         <Tab Title="Setting" Icon="setting.png">
             <ShellContent Title="Setting"
