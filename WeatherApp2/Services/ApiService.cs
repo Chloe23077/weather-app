@@ -14,14 +14,14 @@ namespace WeatherApp2.Services
         public static async Task<Root> GetWeather(double latitude, double longitude)
         {
             var httpClient = new HttpClient();
-            var response = await httpClient.GetStringAsync(string.Format("https://api.openweathermap.org/data/2.5/forecast?lat={0}&lon={1}&units=metric&appid=b980dde0248e56e1a1de4397ea2ba249", latitude, longitude));
+            var response = await httpClient.GetStringAsync(string.Format("https://pro.openweathermap.org/data/2.5/forecast/hourly?lat={0}&lon={1}&units=metric&appid=b980dde0248e56e1a1de4397ea2ba249", latitude, longitude));
             return JsonConvert.DeserializeObject<Root>(response);
         }
 
         public static async Task<Root> GetWeatherByCity(string city)
         {
             var httpClient = new HttpClient();
-            var response = await httpClient.GetStringAsync(string.Format("api.openweathermap.org / data / 2.5 / forecast ? q ={0}&units=metric&appid =b980dde0248e56e1a1de4397ea2ba249", city));
+            var response = await httpClient.GetStringAsync(string.Format("https://pro.openweathermap.org/data/2.5/forecast/hourly?q={0}&units=metric&appid=b980dde0248e56e1a1de4397ea2ba249", city));
             return JsonConvert.DeserializeObject<Root>(response);
         }
     }

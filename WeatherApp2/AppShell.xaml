@@ -15,9 +15,9 @@
             <ShellContent Title="Detail"
         ContentTemplate="{DataTemplate local:WeatherDetailPage}" Route="WeatherDetailPage"/>
         </Tab>
-        <Tab Title="Favorite" Icon="favorite.png">
-            <ShellContent Title="Favorite"
-                ContentTemplate="{DataTemplate local:WeatherFavoritePage}" Route="WeatherFavoritePage"/>
+        <Tab Title="Weekly" Icon="favorite.png">
+            <ShellContent Title="Weekly"
+                ContentTemplate="{DataTemplate local:WeatherWeeklyPage}" Route="WeatherWeeklyPage"/>
         </Tab>
         <Tab Title="Setting" Icon="setting.png">
             <ShellContent Title="Setting"

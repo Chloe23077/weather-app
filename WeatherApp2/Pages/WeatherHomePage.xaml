@@ -26,7 +26,7 @@
              Orientation="Vertical">
 
             <Label x:Name="LblCity"
-                   FontSize="40"
+                   FontSize="37"
                    HorizontalOptions="Center"
                    TextColor="Gray"/>
             <Label x:Name="LblWeatherDescription"
@@ -37,8 +37,8 @@
             <Image Grid.Row="2"
                    x:Name="ImgWeatherIcon"
                    VerticalOptions="Start"
-                   HeightRequest="300"
-                   WidthRequest="300"/>
+                   HeightRequest="270"
+                   WidthRequest="270"/>
         </StackLayout>
 
         <Grid Grid.Row="3"

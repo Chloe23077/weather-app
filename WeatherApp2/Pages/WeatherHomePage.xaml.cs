@@ -33,7 +33,7 @@ public partial class WeatherHomePage : ContentPage
         var response = await DisplayPromptAsync(title: "", message: "", placeholder: "Search weather by city", accept: "Search", cancel: "Cancel");
         if (response != null)
         {
-
+            await GetWeatherDataByCity(response);
         }
     }
 
@@ -47,6 +47,19 @@ public partial class WeatherHomePage : ContentPage
     public async Task GetWeatherDataByLocation(double latitude, double longitude)
     {
         var result = await ApiService.GetWeather(latitude, longitude);
+        UpdateUI(result);
+       
+    }
+
+    public async Task GetWeatherDataByCity(string city)
+    {
+        var result = await ApiService.GetWeatherByCity(city);
+        UpdateUI(result);
+        
+    }
+
+    public void UpdateUI(dynamic result)
+    {
         foreach (var item in result.list)
         {
             WeatherList.Add(item);
