@@ -31,7 +31,7 @@
                         FontSize="45"
                         FontAttributes="Bold"
                         Margin="20,15,0,0"
-                        Text="25°C"/>
+                        Text="30°C"/>
             </StackLayout>
             <StackLayout Grid.Row="1"
                          Orientation="Vertical">
