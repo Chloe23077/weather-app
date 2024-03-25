@@ -1,4 +1,7 @@
-﻿obj\Debug\net7.0-android\resizetizer\r\drawable\detail.png
+﻿obj\Debug\net7.0-android\resizetizer\r\drawable\airpollution.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\celsius.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\detail.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\fahrenheit.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\favorite.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\home.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\humidity_icon.png
@@ -20,8 +23,14 @@ obj\Debug\net7.0-android\resizetizer\r\drawable\icon_13d.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\icon_13n.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\icon_50d.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\icon_50n.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\light_mode.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\night_mode.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\search1.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\setting.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\sunrise.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\sunset.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\temperature.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\uv.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\wind_icon.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\splash.png

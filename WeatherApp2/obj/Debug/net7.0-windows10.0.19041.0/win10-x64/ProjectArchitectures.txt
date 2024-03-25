@@ -1,1 +1,0 @@
-C:\Users\yunja\source\repos\WeatherApp2\WeatherApp2\WeatherApp2.csproj;x64

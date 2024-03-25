@@ -60,12 +60,14 @@ public partial class WeatherHomePage : ContentPage
 
     public void UpdateUI(dynamic result)
     {
+        WeatherList.Clear();
+
         foreach (var item in result.list)
         {
             WeatherList.Add(item);
         }
-        CvWeather.ItemsSource = WeatherList;
 
+        CvWeather.ItemsSource = WeatherList;
         LblCity.Text = result.city.name;
         LblWeatherDescription.Text = result.list[0].weather[0].description;
         LblTemperature.Text = result.list[0].main.temperature + "°C";
@@ -73,4 +75,5 @@ public partial class WeatherHomePage : ContentPage
         LblWind.Text = result.list[0].wind.speed + "km/h";
         ImgWeatherIcon.Source = result.list[0].weather[0].customIcon;
     }
+
 }

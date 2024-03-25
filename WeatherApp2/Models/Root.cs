@@ -51,7 +51,9 @@ namespace WeatherApp2.Models
         public double temperature => Math.Round(temp);
         public double feels_like { get; set; }
         public double temp_min { get; set; }
+        public double min_temperature => Math.Round(temp_min);
         public double temp_max { get; set; }
+        public double max_temperature => Math.Round(temp_max);
         public int pressure { get; set; }
         public int sea_level { get; set; }
         public int grnd_level { get; set; }
