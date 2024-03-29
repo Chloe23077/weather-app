@@ -8341,37 +8341,40 @@ namespace WeatherApp2
 			public const int notify_panel_notification_icon_bg = 2131165418;
 			
 			// aapt resource value: 0x7F0700EB
-			public const int search1 = 2131165419;
+			public const int pressure = 2131165419;
 			
 			// aapt resource value: 0x7F0700EC
-			public const int setting = 2131165420;
+			public const int search1 = 2131165420;
 			
 			// aapt resource value: 0x7F0700ED
-			public const int splash = 2131165421;
+			public const int setting = 2131165421;
 			
 			// aapt resource value: 0x7F0700EE
-			public const int sunrise = 2131165422;
+			public const int splash = 2131165422;
 			
 			// aapt resource value: 0x7F0700EF
-			public const int sunset = 2131165423;
+			public const int sunrise = 2131165423;
 			
 			// aapt resource value: 0x7F0700F0
-			public const int temperature = 2131165424;
+			public const int sunset = 2131165424;
 			
 			// aapt resource value: 0x7F0700F1
-			public const int test_level_drawable = 2131165425;
+			public const int temperature = 2131165425;
 			
 			// aapt resource value: 0x7F0700F2
-			public const int tooltip_frame_dark = 2131165426;
+			public const int test_level_drawable = 2131165426;
 			
 			// aapt resource value: 0x7F0700F3
-			public const int tooltip_frame_light = 2131165427;
+			public const int tooltip_frame_dark = 2131165427;
 			
 			// aapt resource value: 0x7F0700F4
-			public const int uv = 2131165428;
+			public const int tooltip_frame_light = 2131165428;
 			
 			// aapt resource value: 0x7F0700F5
-			public const int wind_icon = 2131165429;
+			public const int uv = 2131165429;
+			
+			// aapt resource value: 0x7F0700F6
+			public const int wind_icon = 2131165430;
 			
 			static Drawable()
 			{

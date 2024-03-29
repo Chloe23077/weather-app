@@ -76,6 +76,7 @@
 	  <None Remove="Resources\Images\icon_50n.png" />
 	  <None Remove="Resources\Images\light_mode.png" />
 	  <None Remove="Resources\Images\night_mode.png" />
+	  <None Remove="Resources\Images\pressure.png" />
 	  <None Remove="Resources\Images\search1.png" />
 	  <None Remove="Resources\Images\setting.png" />
 	  <None Remove="Resources\Images\sunrise.png" />

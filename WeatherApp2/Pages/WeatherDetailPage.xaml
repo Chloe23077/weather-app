@@ -9,29 +9,24 @@
                          Orientation="Horizontal" Margin="5,15,0,10">
                 <StackLayout Orientation="Vertical" Margin="10,0,10,0">
                     <Label x:Name="LblCity"
-                           FontSize="45"
+                           FontSize="35"
                            HorizontalTextAlignment="Center"
-                           TextColor="Gray"
-                           Text="Perth"/>
+                           TextColor="Gray"/>
                     <Label x:Name="LblWeatherDescription"
                            FontSize="Medium"
                            HorizontalTextAlignment="Center"
-                           TextColor="SlateGray"
-                           Text="Clear Sky"/>
+                           TextColor="SlateGray"/>
                 </StackLayout>
                 <Image Grid.Row="2"
                        x:Name="ImgWeatherIcon"
                        VerticalOptions="Center"
                        HeightRequest="100"
-                       WidthRequest="100"
-                       Margin="10,0,0,0"
-                       Source="icon_01d.png"/>
+                       WidthRequest="100"/>
                 <Label x:Name="LblTemperature"
                        HorizontalOptions="Start"
-                        FontSize="45"
+                        FontSize="34"
                         FontAttributes="Bold"
-                        Margin="20,15,0,0"
-                        Text="30°C"/>
+                        Margin="20,15,10,0"/>
             </StackLayout>
             <StackLayout Grid.Row="1"
                          Orientation="Vertical">
@@ -79,11 +74,11 @@
                                 <RowDefinition Height="Auto"/>
                                 <RowDefinition Height="Auto"/>
                             </Grid.RowDefinitions>
-                            <Label Text="UV" FontSize="Default" Grid.Row="0"/>
+                            <Label Text="pressure" FontSize="Default" Grid.Row="0"/>
                             <Image Grid.Row="1"
                                    HorizontalOptions="Center"
                                    HeightRequest="60"
-                                   Source="uv.png"
+                                   Source="pressure.png"
                                    Margin="0,5,0,0"/>
                             <Label Text="5.7" FontSize="Default"
                                    Grid.Row="2"

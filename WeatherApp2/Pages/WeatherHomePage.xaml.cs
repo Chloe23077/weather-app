@@ -37,6 +37,7 @@ public partial class WeatherHomePage : ContentPage
         }
     }
 
+
     private async void TapLocation_Tapped(object sender, TappedEventArgs e)
     {
         await GetLocation();
