@@ -5,30 +5,25 @@
     <ContentPage.Content>
         <StackLayout Margin="3,15,0,10">
             <StackLayout Orientation="Horizontal">
-                <StackLayout Orientation="Vertical" Margin="10,0,10,0">
+                <StackLayout Orientation="Vertical" Margin="10,15,10,0">
                     <Label x:Name="LblCity"
-                           FontSize="45"
+                           FontSize="37"
                            HorizontalTextAlignment="Center"
-                           TextColor="Gray"
-                           Text="Perth"/>
+                           TextColor="Gray"/>
                     <Label x:Name="LblWeatherDescription"
                            FontSize="Medium"
                            HorizontalTextAlignment="Center"
-                           TextColor="SlateGray"
-                           Text="Clear Sky"/>
+                           TextColor="SlateGray"/>
                 </StackLayout>
                 <Image x:Name="ImgWeatherIcon"
                        VerticalOptions="Center"
                        HeightRequest="100"
-                       WidthRequest="100"
-                       Margin="10,0,0,0"
-                       Source="icon_01d.png"/>
+                       WidthRequest="100"/>
                 <Label x:Name="LblTemperature"
                        HorizontalOptions="Start"
-                       FontSize="45"
+                       FontSize="35"
                        FontAttributes="Bold"
-                       Margin="20,15,0,0"
-                       Text="30°C"/>
+                       Margin="20,25,0,0"/>
             </StackLayout>
             <Frame Padding="10,15,5,5" CornerRadius="10" HasShadow="True" BorderColor="LightBlue" 
                    WidthRequest="380" HeightRequest="445" BackgroundColor="LightBlue"

@@ -17,7 +17,9 @@ namespace WeatherApp2.Models
         public int population { get; set; }
         public int timezone { get; set; }
         public int sunrise { get; set; }
+        public string UTCSunrise => UtcTimeLibrary.UtcTimeStamp.ConvertToUtc(sunrise);
         public int sunset { get; set; }
+        public string UTCSunset => UtcTimeLibrary.UtcTimeStamp.ConvertToUtc(sunset);
     }
 
     public class Clouds

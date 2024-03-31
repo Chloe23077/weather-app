@@ -50,6 +50,11 @@ public partial class WeatherDetailPage : ContentPage
         LblWeatherDescription.Text = result.list[0].weather[0].description;
         LblTemperature.Text = result.list[0].main.temperature + "°C";
         ImgWeatherIcon.Source = result.list[0].weather[0].customIcon;
+        LblSunrise.Text = result.city.UTCSunrise;
+        LblSunset.Text = result.city.UTCSunset;
+        LblPressure.Text = result.list[0].main.pressure + "hPa";
+        LblMinTemp.Text = result.list[0].main.min_temperature + "°C";
+        LblMaxTemp.Text = result.list[0].main.max_temperature + "°C";
 
     }
 }

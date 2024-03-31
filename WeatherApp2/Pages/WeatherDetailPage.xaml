@@ -46,7 +46,9 @@
                                HorizontalOptions="Center"
                                HeightRequest="60"
                                Source="sunrise.png"/>
-                        <Label Text="06:20AM" FontSize="Default"
+                        <Label 
+                               x:Name="LblSunrise"
+                               FontSize="Default"
                                HorizontalOptions="Center"
                                VerticalOptions="End"/>
                         <Label Text="Sunset"
@@ -58,7 +60,9 @@
                                HorizontalOptions="Center"
                                HeightRequest="60"
                                Source="sunset.png"/>
-                        <Label Text="06:20PM" FontSize="Default"
+                        <Label  
+                               x:Name="LblSunset"
+                               FontSize="Default"
                                Grid.Column="2"
                                HorizontalOptions="Center"
                                VerticalOptions="End"/>
@@ -74,13 +78,17 @@
                                 <RowDefinition Height="Auto"/>
                                 <RowDefinition Height="Auto"/>
                             </Grid.RowDefinitions>
-                            <Label Text="pressure" FontSize="Default" Grid.Row="0"/>
+                            <Label Text="pressure" 
+                                   FontSize="Default" 
+                                   Grid.Row="0"/>
                             <Image Grid.Row="1"
                                    HorizontalOptions="Center"
                                    HeightRequest="60"
                                    Source="pressure.png"
                                    Margin="0,5,0,0"/>
-                            <Label Text="5.7" FontSize="Default"
+                            <Label  
+                                   x:Name="LblPressure"
+                                   FontSize="Default"
                                    Grid.Row="2"
                                    Grid.Column="1"
                                    HorizontalOptions="Center"
@@ -100,13 +108,17 @@
                                 <RowDefinition Height="Auto"/>
                             </Grid.RowDefinitions>
 
-                            <Label Text="airpollution" FontSize="Default" Grid.Row="0"/>
+                            <Label Text="airpollution" 
+                                   FontSize="Default" 
+                                   Grid.Row="0"/>
                             <Image Grid.Row="1"
                                    HorizontalOptions="Center"
                                    HeightRequest="60"
                                    Source="airpollution.png"
                                    Margin="0,10,0,0"/>
-                            <Label Text="10μg/m3" FontSize="Default"
+                            <Label Text="10μg/m3" 
+                                   x:Name="LblAirpollution"
+                                   FontSize="Default"
                                    Grid.Row="2"
                                    Grid.Column="1"
                                    HorizontalOptions="Center"
@@ -126,13 +138,17 @@
                                 <RowDefinition Height="Auto"/>
                             </Grid.RowDefinitions>
 
-                            <Label Text="min_temp" FontSize="Default" Grid.Row="0"/>
+                            <Label Text="min_temp" 
+                                   FontSize="Default" 
+                                   Grid.Row="0"/>
                             <Image Grid.Row="1"
                                    HorizontalOptions="Center"
                                    HeightRequest="60"
                                    Source="temperature.png"
                                    Margin="0,7,0,0"/>
-                            <Label Text="15°C" FontSize="Default"
+                            <Label 
+                                   x:Name="LblMinTemp"
+                                   FontSize="Default"
                                    Grid.Row="2"
                                    Grid.Column="1"
                                    HorizontalOptions="Center"
@@ -149,13 +165,17 @@
                                 <RowDefinition Height="Auto"/>
                                 <RowDefinition Height="Auto"/>
                             </Grid.RowDefinitions>
-                            <Label Text="max_temp" FontSize="Default" Grid.Row="0"/>
+                            <Label Text="max_temp" 
+                                   FontSize="Default" 
+                                   Grid.Row="0"/>
                             <Image Grid.Row="1"
                                    HorizontalOptions="Center"
                                    HeightRequest="60"
                                    Source="temperature.png"
                                    Margin="0,7,0,0"/>
-                            <Label Text="35°C" FontSize="Default"
+                            <Label 
+                                   x:Name="LblMaxTemp"
+                                   FontSize="Default"
                                    Grid.Row="2"
                                    Grid.Column="1"
                                    HorizontalOptions="Center"
