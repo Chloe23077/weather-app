@@ -8374,7 +8374,10 @@ namespace WeatherApp2
 			public const int uv = 2131165429;
 			
 			// aapt resource value: 0x7F0700F6
-			public const int wind_icon = 2131165430;
+			public const int waterlevel = 2131165430;
+			
+			// aapt resource value: 0x7F0700F7
+			public const int wind_icon = 2131165431;
 			
 			static Drawable()
 			{

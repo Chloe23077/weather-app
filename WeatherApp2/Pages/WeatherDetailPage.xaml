@@ -108,16 +108,16 @@
                                 <RowDefinition Height="Auto"/>
                             </Grid.RowDefinitions>
 
-                            <Label Text="airpollution" 
+                            <Label Text="sealevel" 
                                    FontSize="Default" 
                                    Grid.Row="0"/>
                             <Image Grid.Row="1"
                                    HorizontalOptions="Center"
                                    HeightRequest="60"
-                                   Source="airpollution.png"
+                                   Source="waterlevel.png"
                                    Margin="0,10,0,0"/>
-                            <Label Text="10μg/m3" 
-                                   x:Name="LblAirpollution"
+                            <Label 
+                                   x:Name="LblSeaLevel"
                                    FontSize="Default"
                                    Grid.Row="2"
                                    Grid.Column="1"

@@ -53,6 +53,7 @@ public partial class WeatherDetailPage : ContentPage
         LblSunrise.Text = result.city.UTCSunrise;
         LblSunset.Text = result.city.UTCSunset;
         LblPressure.Text = result.list[0].main.pressure + "hPa";
+        LblSeaLevel.Text = result.list[0].main.sea_level + "m";
         LblMinTemp.Text = result.list[0].main.min_temperature + "°C";
         LblMaxTemp.Text = result.list[0].main.max_temperature + "°C";
 

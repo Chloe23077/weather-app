@@ -1009,3 +1009,4 @@ C:\Users\yunja\source\repos\WeatherApp2\WeatherApp2\obj\Debug\net7.0-android\sta
 C:\Users\yunja\source\repos\WeatherApp2\WeatherApp2\obj\Debug\net7.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\yunja\source\repos\WeatherApp2\WeatherApp2\obj\Debug\net7.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\yunja\source\repos\WeatherApp2\WeatherApp2\obj\Debug\net7.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\yunja\source\repos\WeatherApp2\WeatherApp2\obj\Debug\net7.0-android\resizetizer\r\drawable\waterlevel.png

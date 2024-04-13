@@ -26,6 +26,7 @@ namespace WeatherApp2.Models
     {
         public int all { get; set; }
     }
+   
 
     public class Coord
     {
@@ -45,6 +46,7 @@ namespace WeatherApp2.Models
         public double pop { get; set; }
         public Sys sys { get; set; }
         public string dt_txt { get; set; }
+   
     }
 
     public class Main
@@ -61,6 +63,7 @@ namespace WeatherApp2.Models
         public int grnd_level { get; set; }
         public int humidity { get; set; }
         public double temp_kf { get; set; }
+ 
     }
 
     public class Root
@@ -70,6 +73,8 @@ namespace WeatherApp2.Models
         public int cnt { get; set; }
         public List<List> list { get; set; }
         public City city { get; set; }
+
+
     }
 
     public class Sys

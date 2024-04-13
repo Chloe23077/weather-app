@@ -49,7 +49,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\Images\airpollution.png" />
 	  <None Remove="Resources\Images\celsius.png" />
 	  <None Remove="Resources\Images\detail.png" />
 	  <None Remove="Resources\Images\fahrenheit.png" />
@@ -83,6 +82,7 @@
 	  <None Remove="Resources\Images\sunset.png" />
 	  <None Remove="Resources\Images\temperature.png" />
 	  <None Remove="Resources\Images\uv.png" />
+	  <None Remove="Resources\Images\waterlevel.png" />
 	  <None Remove="Resources\Images\wind_icon.png" />
 	</ItemGroup>
 
