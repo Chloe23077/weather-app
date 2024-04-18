@@ -3,44 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\obj\\Debug\\net7.0-android\\AndroidManifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WeatherApp2\\obj\\Debug\\net7.0-android\\AndroidManifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|c:\\users\\yunja\\source\\repos\\weatherapp2\\weatherapp2\\models\\root.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|solutionrelative:weatherapp2\\models\\root.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|c:\\users\\yunja\\source\\repos\\weatherapp2\\weatherapp2\\pages\\weatherdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|solutionrelative:weatherapp2\\pages\\weatherdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|c:\\users\\yunja\\source\\repos\\weatherapp2\\weatherapp2\\services\\apiserviceweekly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|solutionrelative:weatherapp2\\services\\apiserviceweekly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|c:\\users\\yunja\\source\\repos\\weatherapp2\\weatherapp2\\models\\weeklyroots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|solutionrelative:weatherapp2\\models\\weeklyroots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|c:\\users\\yunja\\source\\repos\\weatherapp2\\weatherapp2\\pages\\weatherdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|solutionrelative:weatherapp2\\pages\\weatherdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|c:\\users\\yunja\\source\\repos\\weatherapp2\\weatherapp2\\pages\\weatherweeklypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|solutionrelative:weatherapp2\\pages\\weatherweeklypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|c:\\users\\yunja\\source\\repos\\weatherapp2\\weatherapp2\\pages\\weatherhomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|solutionrelative:weatherapp2\\pages\\weatherhomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|c:\\users\\yunja\\source\\repos\\weatherapp2\\weatherapp2\\models\\root.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|solutionrelative:weatherapp2\\models\\root.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|c:\\users\\yunja\\source\\repos\\weatherapp2\\weatherapp2\\pages\\weatherweeklypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|solutionrelative:weatherapp2\\pages\\weatherweeklypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|c:\\users\\yunja\\source\\repos\\weatherapp2\\weatherapp2\\pages\\weatherdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|solutionrelative:weatherapp2\\pages\\weatherdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|c:\\users\\yunja\\source\\repos\\weatherapp2\\weatherapp2\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|solutionrelative:weatherapp2\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|c:\\users\\yunja\\source\\repos\\weatherapp2\\weatherapp2\\pages\\weatherhomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|solutionrelative:weatherapp2\\pages\\weatherhomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\obj\\Debug\\net7.0-android\\AndroidManifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WeatherApp2\\obj\\Debug\\net7.0-android\\AndroidManifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|c:\\users\\yunja\\source\\repos\\weatherapp2\\weatherapp2\\pages\\weatherweeklypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|solutionrelative:weatherapp2\\pages\\weatherweeklypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|c:\\users\\yunja\\source\\repos\\weatherapp2\\weatherapp2\\pages\\weatherhomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|solutionrelative:weatherapp2\\pages\\weatherhomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|c:\\users\\yunja\\source\\repos\\weatherapp2\\weatherapp2\\pages\\weathersettingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|solutionrelative:weatherapp2\\pages\\weathersettingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|c:\\users\\yunja\\source\\repos\\weatherapp2\\weatherapp2\\pages\\weatherweeklypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|solutionrelative:weatherapp2\\pages\\weatherweeklypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|c:\\users\\yunja\\source\\repos\\weatherapp2\\weatherapp2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|solutionrelative:weatherapp2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CACD293E-9BA9-465D-ACD7-1132767DAED4}|WeatherApp2\\WeatherApp2.csproj|c:\\users\\yunja\\source\\repos\\weatherapp2\\weatherapp2\\pages\\weathersettingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -74,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -83,79 +91,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "WeeklyRoots.cs",
+              "DocumentMoniker": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Models\\WeeklyRoots.cs",
+              "RelativeDocumentMoniker": "WeatherApp2\\Models\\WeeklyRoots.cs",
+              "ToolTip": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Models\\WeeklyRoots.cs",
+              "RelativeToolTip": "WeatherApp2\\Models\\WeeklyRoots.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T10:59:03.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "WeatherDetailPage.xaml",
               "DocumentMoniker": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Pages\\WeatherDetailPage.xaml",
               "RelativeDocumentMoniker": "WeatherApp2\\Pages\\WeatherDetailPage.xaml",
               "ToolTip": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Pages\\WeatherDetailPage.xaml",
               "RelativeToolTip": "WeatherApp2\\Pages\\WeatherDetailPage.xaml",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAAAHgAAAA1AAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAABwAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-23T05:50:29.782Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AndroidManifest.xml",
-              "DocumentMoniker": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\obj\\Debug\\net7.0-android\\AndroidManifest.xml",
-              "RelativeDocumentMoniker": "WeatherApp2\\obj\\Debug\\net7.0-android\\AndroidManifest.xml",
-              "ToolTip": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\obj\\Debug\\net7.0-android\\AndroidManifest.xml",
-              "RelativeToolTip": "WeatherApp2\\obj\\Debug\\net7.0-android\\AndroidManifest.xml",
-              "ViewState": "AQIAABEAAAAAAAAAAAAlwB8AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-03-29T15:16:02.201Z",
+              "DocumentIndex": 4,
+              "Title": "WeatherHomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Pages\\WeatherHomePage.xaml",
+              "RelativeDocumentMoniker": "WeatherApp2\\Pages\\WeatherHomePage.xaml",
+              "ToolTip": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Pages\\WeatherHomePage.xaml",
+              "RelativeToolTip": "WeatherApp2\\Pages\\WeatherHomePage.xaml",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAFkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-21T01:59:02.77Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "WeatherDetailPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Pages\\WeatherDetailPage.xaml.cs",
               "RelativeDocumentMoniker": "WeatherApp2\\Pages\\WeatherDetailPage.xaml.cs",
               "ToolTip": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Pages\\WeatherDetailPage.xaml.cs",
               "RelativeToolTip": "WeatherApp2\\Pages\\WeatherDetailPage.xaml.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAcwDcAAAA/AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-29T02:28:04.629Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "ApiServiceWeekly.cs",
+              "DocumentMoniker": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Services\\ApiServiceWeekly.cs",
+              "RelativeDocumentMoniker": "WeatherApp2\\Services\\ApiServiceWeekly.cs",
+              "ToolTip": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Services\\ApiServiceWeekly.cs",
+              "RelativeToolTip": "WeatherApp2\\Services\\ApiServiceWeekly.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T03:52:30.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Root.cs",
               "DocumentMoniker": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Models\\Root.cs",
               "RelativeDocumentMoniker": "WeatherApp2\\Models\\Root.cs",
               "ToolTip": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Models\\Root.cs",
               "RelativeToolTip": "WeatherApp2\\Models\\Root.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAkwD0AAAATAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAUwAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-21T03:00:01.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WeatherWeeklyPage.xaml",
-              "DocumentMoniker": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Pages\\WeatherWeeklyPage.xaml",
-              "RelativeDocumentMoniker": "WeatherApp2\\Pages\\WeatherWeeklyPage.xaml",
-              "ToolTip": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Pages\\WeatherWeeklyPage.xaml",
-              "RelativeToolTip": "WeatherApp2\\Pages\\WeatherWeeklyPage.xaml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-24T03:40:59.285Z",
+              "DocumentIndex": 7,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\obj\\Debug\\net7.0-android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "WeatherApp2\\obj\\Debug\\net7.0-android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\obj\\Debug\\net7.0-android\\AndroidManifest.xml",
+              "RelativeToolTip": "WeatherApp2\\obj\\Debug\\net7.0-android\\AndroidManifest.xml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAUwB8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-03-29T15:16:02.201Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WeatherWeeklyPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Pages\\WeatherWeeklyPage.xaml.cs",
-              "RelativeDocumentMoniker": "WeatherApp2\\Pages\\WeatherWeeklyPage.xaml.cs",
-              "ToolTip": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Pages\\WeatherWeeklyPage.xaml.cs",
-              "RelativeToolTip": "WeatherApp2\\Pages\\WeatherWeeklyPage.xaml.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAcwAAAAAAGAAAA",
+              "DocumentIndex": 9,
+              "Title": "WeatherHomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Pages\\WeatherHomePage.xaml.cs",
+              "RelativeDocumentMoniker": "WeatherApp2\\Pages\\WeatherHomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Pages\\WeatherHomePage.xaml.cs",
+              "RelativeToolTip": "WeatherApp2\\Pages\\WeatherHomePage.xaml.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAswEkAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-31T02:15:47.717Z",
+              "WhenOpened": "2024-03-21T02:11:15.59Z",
               "EditorCaption": ""
             },
             {
@@ -166,50 +200,52 @@
               "RelativeDocumentMoniker": "WeatherApp2\\Services\\ApiService.cs",
               "ToolTip": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Services\\ApiService.cs",
               "RelativeToolTip": "WeatherApp2\\Services\\ApiService.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAACUAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-21T03:02:20.475Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WeatherHomePage.xaml",
-              "DocumentMoniker": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Pages\\WeatherHomePage.xaml",
-              "RelativeDocumentMoniker": "WeatherApp2\\Pages\\WeatherHomePage.xaml",
-              "ToolTip": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Pages\\WeatherHomePage.xaml",
-              "RelativeToolTip": "WeatherApp2\\Pages\\WeatherHomePage.xaml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAABwAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-21T01:59:02.77Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "WeatherHomePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Pages\\WeatherHomePage.xaml.cs",
-              "RelativeDocumentMoniker": "WeatherApp2\\Pages\\WeatherHomePage.xaml.cs",
-              "ToolTip": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Pages\\WeatherHomePage.xaml.cs",
-              "RelativeToolTip": "WeatherApp2\\Pages\\WeatherHomePage.xaml.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAwwDcAAAAFAAAA",
+              "Title": "WeatherWeeklyPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Pages\\WeatherWeeklyPage.xaml.cs",
+              "RelativeDocumentMoniker": "WeatherApp2\\Pages\\WeatherWeeklyPage.xaml.cs",
+              "ToolTip": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Pages\\WeatherWeeklyPage.xaml.cs",
+              "RelativeToolTip": "WeatherApp2\\Pages\\WeatherWeeklyPage.xaml.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAswEIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T02:11:15.59Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "WeatherSettingPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Pages\\WeatherSettingPage.xaml.cs",
-              "RelativeDocumentMoniker": "WeatherApp2\\Pages\\WeatherSettingPage.xaml.cs",
-              "ToolTip": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Pages\\WeatherSettingPage.xaml.cs",
-              "RelativeToolTip": "WeatherApp2\\Pages\\WeatherSettingPage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T02:28:34.18Z"
+              "WhenOpened": "2024-03-31T02:15:47.717Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "WeatherWeeklyPage.xaml",
+              "DocumentMoniker": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Pages\\WeatherWeeklyPage.xaml",
+              "RelativeDocumentMoniker": "WeatherApp2\\Pages\\WeatherWeeklyPage.xaml",
+              "ToolTip": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Pages\\WeatherWeeklyPage.xaml",
+              "RelativeToolTip": "WeatherApp2\\Pages\\WeatherWeeklyPage.xaml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAABsAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-24T03:40:59.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\App.xaml",
+              "RelativeDocumentMoniker": "WeatherApp2\\App.xaml",
+              "ToolTip": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\App.xaml",
+              "RelativeToolTip": "WeatherApp2\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-16T08:29:27.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "WeatherSettingPage.xaml",
               "DocumentMoniker": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Pages\\WeatherSettingPage.xaml",
               "RelativeDocumentMoniker": "WeatherApp2\\Pages\\WeatherSettingPage.xaml",
@@ -221,19 +257,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\AppShell.xaml",
               "RelativeDocumentMoniker": "WeatherApp2\\AppShell.xaml",
               "ToolTip": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\AppShell.xaml",
               "RelativeToolTip": "WeatherApp2\\AppShell.xaml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAABdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBMAAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-21T01:57:22.664Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "WeatherApp2\\AppShell.xaml.cs",
@@ -245,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "AndroidManifest.xml",
               "DocumentMoniker": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\Platforms\\Android\\AndroidManifest.xml",
               "RelativeDocumentMoniker": "WeatherApp2\\Platforms\\Android\\AndroidManifest.xml",
@@ -256,19 +292,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\MainPage.xaml",
               "RelativeDocumentMoniker": "WeatherApp2\\MainPage.xaml",
               "ToolTip": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\MainPage.xaml",
               "RelativeToolTip": "WeatherApp2\\MainPage.xaml",
-              "ViewState": "AQIAAAEAAAAAAAAAAABBwAUAAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAUAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-21T01:28:20.761Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\yunja\\source\\repos\\WeatherApp2\\WeatherApp2\\MauiProgram.cs",
               "RelativeDocumentMoniker": "WeatherApp2\\MauiProgram.cs",

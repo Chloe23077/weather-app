@@ -7,6 +7,8 @@ using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using WeatherApp2.Models;
 
+
+
 namespace WeatherApp2.Services
 {
     public static class ApiService
@@ -24,5 +26,10 @@ namespace WeatherApp2.Services
             var response = await httpClient.GetStringAsync(string.Format("https://pro.openweathermap.org/data/2.5/forecast/hourly?q={0}&units=metric&appid=b980dde0248e56e1a1de4397ea2ba249", city));
             return JsonConvert.DeserializeObject<Root>(response);
         }
+
     }
 }
+
+
+
+
