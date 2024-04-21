@@ -47,7 +47,7 @@ namespace WeeklyWeather.Models
         public int deg { get; set; }
         public double gust { get; set; }
         public int clouds { get; set; }
-        public int pop { get; set; }
+        public double pop { get; set; }
     }
 
     public class Root
