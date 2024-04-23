@@ -28,11 +28,11 @@
             <Label x:Name="LblCity"
                    FontSize="37"
                    HorizontalOptions="Center"
-                   TextColor="Gray"/>
+                   TextColor="Black"/>
             <Label x:Name="LblWeatherDescription"
                    FontSize="Medium"
                    HorizontalOptions="Center" 
-                   TextColor="SlateGray"/>
+                   TextColor="Black"/>
             
             <Image Grid.Row="2"
                    x:Name="ImgWeatherIcon"
