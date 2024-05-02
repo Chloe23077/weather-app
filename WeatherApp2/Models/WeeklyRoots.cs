@@ -36,6 +36,7 @@ namespace WeeklyWeather.Models
     public class List
     {
         public int dt { get; set; }
+        public string WeekDay => DateTimeOffset.FromUnixTimeSeconds(dt).DateTime.ToString("ddd");
         public int sunrise { get; set; }
         public int sunset { get; set; }
         public Temp temp { get; set; }

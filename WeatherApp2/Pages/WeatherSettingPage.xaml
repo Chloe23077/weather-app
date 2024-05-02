@@ -19,12 +19,13 @@
                                />
                         <Image HorizontalOptions="Center"
                                HeightRequest="60"
-                               Source="celsius.png"
-                               Margin="0,0,50,0"/>
+                               Source="celsius.png"/>
+                        <RadioButton x:Name="CelsiusButton"/>
                         <Image HorizontalOptions="Center"
                                HeightRequest="60"
                                Source="fahrenheit.png"
                                />
+                        <RadioButton x:Name="FahrenheitButton"/>
                     </StackLayout>
                 </Frame>
             </StackLayout>
@@ -37,15 +38,14 @@
                                FontSize="Medium"
                                FontAttributes="Bold"
                                HorizontalOptions="Center"/>
-                        <Image HorizontalOptions="Center"
+                        <Image  HorizontalOptions="Start"
                                 HeightRequest="60"
-                                Source="light_mode.png"
-                                Margin="0,0,50,0"
-                                />
-                        <Image HorizontalOptions="Center"
+                                Source="light_mode.png"/>
+                        <RadioButton x:Name="LightMode"/>
+                        <Image  HorizontalOptions="Center"
                                 HeightRequest="60"
-                                Source="night_mode.png"
-                                />
+                                Source="night_mode.png"/>
+                        <RadioButton x:Name="DarkMode"/>
                     </StackLayout>
                 </Frame>
             </StackLayout>
