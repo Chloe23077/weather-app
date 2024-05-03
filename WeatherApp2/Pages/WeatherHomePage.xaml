@@ -2,16 +2,19 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="WeatherApp2.Pages.WeatherHomePage"
-             Title="WeatherHomePage">
+             Title="WeatherHomePage"
+             BackgroundColor="{DynamicResource PageBackgroudColor}">
 
     <Grid RowDefinitions="Auto, Auto, Auto, Auto, Auto"
           RowSpacing="20">
         <StackLayout Grid.Row="0"
                      Margin="20,20,20,0"
                      Orientation="Horizontal">
-            <Frame Padding="10" CornerRadius="35" HasShadow="True" BorderColor="LightGray">
+            <Frame Padding="10" CornerRadius="35" HasShadow="True" BorderColor="LightGray" BackgroundColor="LightGray">
                 <Label Text="Your location"
-                       FontSize="Default"/>
+                       FontSize="Default"
+                       TextColor="Black"
+                       BackgroundColor="LightGray"/>
                 <Frame.GestureRecognizers>
                     <TapGestureRecognizer x:Name="TapLocation" Tapped="TapLocation_Tapped"/>
                 </Frame.GestureRecognizers>
@@ -20,6 +23,7 @@
                          HeightRequest="30"
                          WidthRequest="30"
                          HorizontalOptions="EndAndExpand"
+                         BackgroundColor="LightGray"
                          Clicked="ImageButton_Clicked"/>
         </StackLayout>
         <StackLayout Grid.Row="1"
@@ -28,11 +32,11 @@
             <Label x:Name="LblCity"
                    FontSize="37"
                    HorizontalOptions="Center"
-                   TextColor="Black"/>
+                   TextColor="{DynamicResource PrimaryTextColor}"/>
             <Label x:Name="LblWeatherDescription"
                    FontSize="Medium"
                    HorizontalOptions="Center" 
-                   TextColor="Black"/>
+                   TextColor="{DynamicResource PrimaryTextColor}"/>
             
             <Image Grid.Row="2"
                    x:Name="ImgWeatherIcon"
@@ -54,6 +58,8 @@
             <Label x:Name="LblHumidity"
                    Grid.Row="1"
                    Grid.Column="0"
+                   FontSize="Medium"
+                   TextColor="{DynamicResource PrimaryTextColor}"
                    HorizontalOptions="Center"/>
             <Label x:Name="LblTemperature"
                    Grid.Row="0"
@@ -61,6 +67,7 @@
                    Grid.RowSpan="2"
                    HorizontalOptions="Center"
                    FontSize="35"
+                   TextColor="{DynamicResource PrimaryTextColor}"
                    FontAttributes="Bold"/>
 
             <Image Grid.Row="0"
@@ -71,6 +78,8 @@
             <Label x:Name="LblWind"
                    Grid.Row="1"
                    Grid.Column="2"
+                   TextColor="{DynamicResource PrimaryTextColor}"
+                   FontSize="Medium"
                    HorizontalOptions="Center"/>
         </Grid>
 
@@ -92,10 +101,12 @@
                        <Label Grid.Row="1"
                               FontSize="Large"
                               HorizontalOptions="Center"
+                              TextColor="{DynamicResource PrimaryTextColor}"
                               Text="{Binding main.temperature}"/>
                        <Label Grid.Row="2"
                               FontSize="Small"
                               HorizontalOptions="Center"
+                              TextColor="{DynamicResource PrimaryTextColor}"
                               Text="{Binding dateTime}"/>
                     </Grid>
                 </DataTemplate>

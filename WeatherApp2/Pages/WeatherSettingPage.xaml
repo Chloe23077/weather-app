@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="WeatherApp2.Pages.WeatherSettingPage"
-             Title="WeatherSettingPage">
+             Title="WeatherSettingPage"
+             BackgroundColor="{DynamicResource PageBackgroudColor}">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical"
                      VerticalOptions="StartAndExpand"
@@ -20,12 +21,14 @@
                         <Image HorizontalOptions="Center"
                                HeightRequest="60"
                                Source="celsius.png"/>
-                        <RadioButton x:Name="CelsiusButton"/>
+                        <RadioButton x:Name="CelsiusButton"
+                                     BackgroundColor="LightBlue"/>
                         <Image HorizontalOptions="Center"
                                HeightRequest="60"
                                Source="fahrenheit.png"
                                />
-                        <RadioButton x:Name="FahrenheitButton"/>
+                        <RadioButton x:Name="FahrenheitButton"
+                                     BackgroundColor="LightBlue"/>
                     </StackLayout>
                 </Frame>
             </StackLayout>
@@ -41,11 +44,16 @@
                         <Image  HorizontalOptions="Start"
                                 HeightRequest="60"
                                 Source="light_mode.png"/>
-                        <RadioButton x:Name="LightMode"/>
+                        <RadioButton x:Name="LightMode"
+                                     BackgroundColor="LightBlue"
+                                     CheckedChanged="LightMode_CheckedChanged"/>
                         <Image  HorizontalOptions="Center"
                                 HeightRequest="60"
                                 Source="night_mode.png"/>
-                        <RadioButton x:Name="DarkMode"/>
+                        <RadioButton x:Name="DarkMode"
+                                     BackgroundColor="LightBlue"
+                                     CheckedChanged="DarkMode_CheckedChanged"/>
+                        
                     </StackLayout>
                 </Frame>
             </StackLayout>

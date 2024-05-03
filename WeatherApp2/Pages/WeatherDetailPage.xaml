@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="WeatherApp2.Pages.WeatherDetailPage"
-             Title="WeatherDetailPage">
+             Title="WeatherDetailPage"
+             BackgroundColor="{DynamicResource PageBackgroudColor}">
     <ContentPage.Content>
         <StackLayout>
             <StackLayout Grid.Row="0"
@@ -11,11 +12,11 @@
                     <Label x:Name="LblCity"
                            FontSize="30"
                            HorizontalTextAlignment="Center"
-                           TextColor="Black"/>
+                           TextColor="{DynamicResource PrimaryTextColor}"/>
                     <Label x:Name="LblWeatherDescription"
                            FontSize="Medium"
-                           HorizontalTextAlignment="Center"
-                           TextColor="black"/>
+                           TextColor="{DynamicResource PrimaryTextColor}"
+                           HorizontalTextAlignment="Center"/>
                 </StackLayout>
                 <Image Grid.Row="2"
                        x:Name="ImgWeatherIcon"
@@ -24,9 +25,10 @@
                        WidthRequest="100"/>
                 <Label x:Name="LblTemperature"
                        HorizontalOptions="Start"
-                        FontSize="34"
-                        FontAttributes="Bold"
-                        Margin="20,20,0,0"/>
+                       FontSize="34"
+                       FontAttributes="Bold"
+                       TextColor="{DynamicResource PrimaryTextColor}"
+                       Margin="20,20,0,0"/>
             </StackLayout>
             <StackLayout Grid.Row="1"
                          Orientation="Vertical">

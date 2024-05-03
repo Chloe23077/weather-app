@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    x:Class="WeatherApp2.DarkTheme">
+    <Color x:Key="PageBackgroudColor">Black</Color>
+    <Color x:Key="PrimaryTextColor">White</Color>
+
+    <Style TargetType="Label" x:Key="DarkLabelStyle">
+        <Setter Property="TextColor" Value="{StaticResource PrimaryTextColor}"/>
+    </Style>
+</ResourceDictionary>
