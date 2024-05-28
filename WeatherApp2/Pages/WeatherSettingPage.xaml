@@ -8,30 +8,7 @@
         <StackLayout Orientation="Vertical"
                      VerticalOptions="StartAndExpand"
                      Margin="0,50,0,0">
-            <StackLayout Orientation="Vertical">
-                <Frame Padding="10,15,5,5" CornerRadius="25" HasShadow="True" BorderColor="LightBlue" 
-                   WidthRequest="380" HeightRequest="150" BackgroundColor="LightBlue"
-                   Margin="5,10,6,5">
-                    <StackLayout Orientation="Horizontal">
-                        <Label Text="TEMPERATURE"
-                               FontSize="Medium"
-                               FontAttributes="Bold"
-                               HorizontalOptions="Center"
-                               />
-                        <Image HorizontalOptions="Center"
-                               HeightRequest="60"
-                               Source="celsius.png"/>
-                        <RadioButton x:Name="CelsiusButton"
-                                     BackgroundColor="LightBlue"/>
-                        <Image HorizontalOptions="Center"
-                               HeightRequest="60"
-                               Source="fahrenheit.png"
-                               />
-                        <RadioButton x:Name="FahrenheitButton"
-                                     BackgroundColor="LightBlue"/>
-                    </StackLayout>
-                </Frame>
-            </StackLayout>
+           
             <StackLayout Orientation="Vertical">
                 <Frame Padding="10,15,5,5" CornerRadius="25" HasShadow="True" BorderColor="LightBlue" 
                    WidthRequest="380" HeightRequest="150" BackgroundColor="LightBlue"

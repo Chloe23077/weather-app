@@ -68,5 +68,4 @@ public partial class WeatherWeeklyPage : ContentPage
         WcvWeather.ItemsSource = WeatherList;
     }
 
-
 }

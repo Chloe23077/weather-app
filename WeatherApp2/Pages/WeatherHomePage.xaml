@@ -5,113 +5,115 @@
              Title="WeatherHomePage"
              BackgroundColor="{DynamicResource PageBackgroudColor}">
 
-    <Grid RowDefinitions="Auto, Auto, Auto, Auto, Auto"
-          RowSpacing="20">
-        <StackLayout Grid.Row="0"
-                     Margin="20,20,20,0"
-                     Orientation="Horizontal">
-            <Frame Padding="10" CornerRadius="35" HasShadow="True" BorderColor="LightGray" BackgroundColor="LightGray">
-                <Label Text="Your location"
-                       FontSize="Default"
-                       TextColor="Black"
-                       BackgroundColor="LightGray"/>
-                <Frame.GestureRecognizers>
-                    <TapGestureRecognizer x:Name="TapLocation" Tapped="TapLocation_Tapped"/>
-                </Frame.GestureRecognizers>
-            </Frame>
-            <ImageButton Source="search1.png"
-                         HeightRequest="30"
-                         WidthRequest="30"
-                         HorizontalOptions="EndAndExpand"
-                         BackgroundColor="LightGray"
-                         Clicked="ImageButton_Clicked"/>
-        </StackLayout>
-        <StackLayout Grid.Row="1"
-             Orientation="Vertical">
+    <ScrollView>
+        <Grid RowDefinitions="Auto, Auto, Auto, Auto, Auto"
+      RowSpacing="20">
+            <StackLayout Grid.Row="0"
+                 Margin="20,20,20,0"
+                 Orientation="Horizontal">
+                <Frame Padding="10" CornerRadius="35" HasShadow="True" BorderColor="LightGray" BackgroundColor="LightGray">
+                    <Label Text="Your location"
+                   FontSize="Default"
+                   TextColor="Black"
+                   BackgroundColor="LightGray"/>
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="TapLocation" Tapped="TapLocation_Tapped"/>
+                    </Frame.GestureRecognizers>
+                </Frame>
+                <ImageButton Source="search1.png"
+                     HeightRequest="30"
+                     WidthRequest="30"
+                     HorizontalOptions="EndAndExpand"
+                     BackgroundColor="LightGray"
+                     Clicked="ImageButton_Clicked"/>
+            </StackLayout>
+            <StackLayout Grid.Row="1"
+         Orientation="Vertical">
 
-            <Label x:Name="LblCity"
-                   FontSize="37"
-                   HorizontalOptions="Center"
-                   TextColor="{DynamicResource PrimaryTextColor}"/>
-            <Label x:Name="LblWeatherDescription"
-                   FontSize="Medium"
-                   HorizontalOptions="Center" 
-                   TextColor="{DynamicResource PrimaryTextColor}"/>
-            
-            <Image Grid.Row="2"
-                   x:Name="ImgWeatherIcon"
-                   VerticalOptions="Start"
-                   HeightRequest="270"
-                   WidthRequest="270"/>
-        </StackLayout>
+                <Label x:Name="LblCity"
+               FontSize="37"
+               HorizontalOptions="Center"
+               TextColor="{DynamicResource PrimaryTextColor}"/>
+                <Label x:Name="LblWeatherDescription"
+               FontSize="Medium"
+               HorizontalOptions="Center" 
+               TextColor="{DynamicResource PrimaryTextColor}"/>
 
-        <Grid Grid.Row="3"
-              RowDefinitions="Auto, Auto"
-              ColumnDefinitions="0.33*, 0.33*, 0.33*"
-              Margin="20">
+                <Image Grid.Row="2"
+               x:Name="ImgWeatherIcon"
+               VerticalOptions="Start"
+               HeightRequest="270"
+               WidthRequest="270"/>
+            </StackLayout>
 
-            <Image Grid.Row="0"
-                   Grid.Column="0"
-                   HorizontalOptions="Center"
-                   HeightRequest="25"
-                   Source="humidity_icon.png"/>
-            <Label x:Name="LblHumidity"
-                   Grid.Row="1"
-                   Grid.Column="0"
-                   FontSize="Medium"
-                   TextColor="{DynamicResource PrimaryTextColor}"
-                   HorizontalOptions="Center"/>
-            <Label x:Name="LblTemperature"
-                   Grid.Row="0"
-                   Grid.Column="1"
-                   Grid.RowSpan="2"
-                   HorizontalOptions="Center"
-                   FontSize="35"
-                   TextColor="{DynamicResource PrimaryTextColor}"
-                   FontAttributes="Bold"/>
+            <Grid Grid.Row="3"
+          RowDefinitions="Auto, Auto"
+          ColumnDefinitions="0.33*, 0.33*, 0.33*"
+          Margin="20">
 
-            <Image Grid.Row="0"
-                   Grid.Column="2"
-                   HorizontalOptions="Center"
-                   HeightRequest="25"
-                   Source="wind_icon.png"/>
-            <Label x:Name="LblWind"
-                   Grid.Row="1"
-                   Grid.Column="2"
-                   TextColor="{DynamicResource PrimaryTextColor}"
-                   FontSize="Medium"
-                   HorizontalOptions="Center"/>
+                <Image Grid.Row="0"
+               Grid.Column="0"
+               HorizontalOptions="Center"
+               HeightRequest="25"
+               Source="humidity_icon.png"/>
+                <Label x:Name="LblHumidity"
+               Grid.Row="1"
+               Grid.Column="0"
+               FontSize="Medium"
+               TextColor="{DynamicResource PrimaryTextColor}"
+               HorizontalOptions="Center"/>
+                <Label x:Name="LblTemperature"
+               Grid.Row="0"
+               Grid.Column="1"
+               Grid.RowSpan="2"
+               HorizontalOptions="Center"
+               FontSize="35"
+               TextColor="{DynamicResource PrimaryTextColor}"
+               FontAttributes="Bold"/>
+
+                <Image Grid.Row="0"
+               Grid.Column="2"
+               HorizontalOptions="Center"
+               HeightRequest="25"
+               Source="wind_icon.png"/>
+                <Label x:Name="LblWind"
+               Grid.Row="1"
+               Grid.Column="2"
+               TextColor="{DynamicResource PrimaryTextColor}"
+               FontSize="Medium"
+               HorizontalOptions="Center"/>
+            </Grid>
+
+            <CollectionView Grid.Row="4" x:Name="CvWeather" HeightRequest="100">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Horizontal"
+                               ItemSpacing="20"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Grid.Row="4"
+                      RowDefinitions="Auto, Auto, Auto">
+                            <Image Grid.Row="0"
+                          HorizontalOptions="Center"
+                          VerticalOptions="Start"
+                          HeightRequest="40"
+                          WidthRequest="50"
+                          Source="{Binding weather[0].customIcon}"/>
+                            <Label Grid.Row="1"
+                          FontSize="Large"
+                          HorizontalOptions="Center"
+                          TextColor="{DynamicResource PrimaryTextColor}"
+                          Text="{Binding main.temperature}"/>
+                            <Label Grid.Row="2"
+                          FontSize="Small"
+                          HorizontalOptions="Center"
+                          TextColor="{DynamicResource PrimaryTextColor}"
+                          Text="{Binding dateTime}"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+
+            </CollectionView>
         </Grid>
-
-        <CollectionView Grid.Row="4" x:Name="CvWeather" HeightRequest="100">
-            <CollectionView.ItemsLayout>
-                <LinearItemsLayout Orientation="Horizontal"
-                                   ItemSpacing="20"/>
-            </CollectionView.ItemsLayout>
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <Grid Grid.Row="4"
-                          RowDefinitions="Auto, Auto, Auto">
-                        <Image Grid.Row="0"
-                              HorizontalOptions="Center"
-                              VerticalOptions="Start"
-                              HeightRequest="40"
-                              WidthRequest="50"
-                              Source="{Binding weather[0].customIcon}"/>
-                       <Label Grid.Row="1"
-                              FontSize="Large"
-                              HorizontalOptions="Center"
-                              TextColor="{DynamicResource PrimaryTextColor}"
-                              Text="{Binding main.temperature}"/>
-                       <Label Grid.Row="2"
-                              FontSize="Small"
-                              HorizontalOptions="Center"
-                              TextColor="{DynamicResource PrimaryTextColor}"
-                              Text="{Binding dateTime}"/>
-                    </Grid>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-            
-        </CollectionView>
-    </Grid>
+    </ScrollView>
 </ContentPage>

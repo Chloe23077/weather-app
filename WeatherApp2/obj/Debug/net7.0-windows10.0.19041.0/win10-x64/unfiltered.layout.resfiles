@@ -1,3 +1,5 @@
+OpenSans-Regular.ttf
+OpenSans-Semibold.ttf
 appicon.ico
 appiconLargeTile.scale-100.png
 appiconLargeTile.scale-125.png
@@ -84,4 +86,9 @@ temperature.scale-100.png
 uv.scale-100.png
 waterlevel.scale-100.png
 wind_icon.scale-100.png
+splashSplashScreen.scale-100.png
+splashSplashScreen.scale-125.png
+splashSplashScreen.scale-150.png
+splashSplashScreen.scale-200.png
+splashSplashScreen.scale-400.png
 AboutAssets.txt
